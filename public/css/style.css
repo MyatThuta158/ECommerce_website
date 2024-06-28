@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+        to right,
+        #ee7724,
+        #d8363a,
+        #dd3675,
+        #b44593
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+    }
+}
+
+.b {
+    color: #b44593;
+}
+
+.transparent {
+    background-color: rgba(128, 128, 128, 0.5);
+    z-index: 1000;
+    /* display: none; */
+    transition: 0.5s;
+    transform: 0.5s;
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.topMargin {
+    margin-top: 38vh;
+    margin-left: 25vw;
+}
+
+.full-page-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050; /* Ensure it is above other elements */
+}
+
+/*--------------- This is in navigation page -------------------*/
+.heightAdj {
+    height: 13vh;
+    z-index: -1;
+}
+
+.imageProf {
+    z-index: 1000;
+    float: right;
+}
+
+.img {
+    width: 3vw;
+    height: 6vh;
+    object-fit: cover;
+    /* float: right; */
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
+/* .name {
+    margin-left: 1vw;
+} */
+
+.logo {
+    width: 7vw;
+    height: 11vh;
+    object-fit: cover;
+}
+
+/* This is dashboard styling codes */
+.dash {
+    list-style-type: none;
+    color: white;
+    margin-left: 1vw;
+    padding: 0;
+    width: 100%;
+    /* text-align: center;  */
+}
+
+.dash li {
+    padding: 0px;
+    font-size: 15px;
+}
+
+.dash a {
+    /* text-align: center; */
+    display: block; /* Make the anchor tag fill the space of the list item */
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.dash li a:hover {
+    color: rgb(65, 65, 64);
+    transition: 0.5s;
+}
+
+.line {
+    margin: 0;
+}
+
+.innerMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 2vw;
+}
+
+.innerMenu li {
+    padding: 5px 0;
+    /* text-align: right; */
+}
+
+.innerMenu li a {
+    color: whitesmoke;
+    padding: 5px;
+    display: block; /* Make the anchor tag fill the space of the list item */
+    /* text-align: right; */
+}
+
+/*-----------Inner menu style-----------*/
+.innerMenu li a:hover {
+    color: rgb(65, 65, 64);
+    transition: 0.5s;
+}
+
+/*--------This is for Manufacturers---------------*/
+.change:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.marginT10 {
+    margin-top: 5vh;
+}
